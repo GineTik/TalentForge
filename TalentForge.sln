@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Application", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Infrastracture", "TalentForge.Infrastracture\TalentForge.Infrastracture.csproj", "{E9A10C6F-C352-4592-98F1-D864BEB2815F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Domain", "TalentForge.Domain\TalentForge.Domain.csproj", "{A3B3783B-E31C-4B02-A642-C70F6C6ACCA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{E9A10C6F-C352-4592-98F1-D864BEB2815F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9A10C6F-C352-4592-98F1-D864BEB2815F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9A10C6F-C352-4592-98F1-D864BEB2815F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B3783B-E31C-4B02-A642-C70F6C6ACCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B3783B-E31C-4B02-A642-C70F6C6ACCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B3783B-E31C-4B02-A642-C70F6C6ACCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B3783B-E31C-4B02-A642-C70F6C6ACCA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
