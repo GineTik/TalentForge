@@ -2,9 +2,7 @@
 
 public class RegistrationUser
 {
-    public int TelegramUserId { get; set; }
-    public string Profession { get; set; } = null!;
-    public string ProfessionArea { get; set; } = null!;
-    public string SkillLevel { get; set; } = null!;
-    public string Portfolio { get; set; } = null!;
+    public long TelegramUserId { get; set; }
+    public string Skills { get; set; } = null!;
+    public ICollection<string> Portfolios { get; set; } = new List<string>();
 }
