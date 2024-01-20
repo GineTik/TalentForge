@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using Microsoft.Extensions.Logging;
+using TalentForge.TelegramBotStartup.Middlewares;
 using Telegramper.Core;
 using Telegramper.Executors.Initialization;
 using Telegramper.Executors.Initialization.Services;
@@ -20,6 +21,8 @@ builder.Services.AddExecutors(options =>
 builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
 var app = builder.Build();
+app.UseMiddleware<RoleToStateMiddleware>();
+app.UseMiddleware<AnswerCallbackMiddleware>();
 app.UseExecutors();
 
 app.RunPolling();
