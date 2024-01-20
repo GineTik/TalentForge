@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.TelegramBotUI",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Application", "TalentForge.Application\TalentForge.Application.csproj", "{B17F12CF-6A2F-4622-B2EA-BF43F70E357F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Infrastracture", "TalentForge.Infrastracture\TalentForge.Infrastracture.csproj", "{E9A10C6F-C352-4592-98F1-D864BEB2815F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Infrastructure", "TalentForge.Infrastructure\TalentForge.Infrastructure.csproj", "{E9A10C6F-C352-4592-98F1-D864BEB2815F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Domain", "TalentForge.Domain\TalentForge.Domain.csproj", "{A3B3783B-E31C-4B02-A642-C70F6C6ACCA4}"
 EndProject
