@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.TelegramBotUI", "TalentForge.TelegramBotUI\TalentForge.TelegramBotUI.csproj", "{18488198-5F21-4922-B396-56BBF0481244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Application", "TalentForge.Application\TalentForge.Application.csproj", "{B17F12CF-6A2F-4622-B2EA-BF43F70E357F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalentForge.Infrastracture", "TalentForge.Infrastracture\TalentForge.Infrastracture.csproj", "{E9A10C6F-C352-4592-98F1-D864BEB2815F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18488198-5F21-4922-B396-56BBF0481244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18488198-5F21-4922-B396-56BBF0481244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18488198-5F21-4922-B396-56BBF0481244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18488198-5F21-4922-B396-56BBF0481244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17F12CF-6A2F-4622-B2EA-BF43F70E357F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17F12CF-6A2F-4622-B2EA-BF43F70E357F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17F12CF-6A2F-4622-B2EA-BF43F70E357F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17F12CF-6A2F-4622-B2EA-BF43F70E357F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A10C6F-C352-4592-98F1-D864BEB2815F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A10C6F-C352-4592-98F1-D864BEB2815F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A10C6F-C352-4592-98F1-D864BEB2815F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A10C6F-C352-4592-98F1-D864BEB2815F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
