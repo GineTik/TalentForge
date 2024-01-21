@@ -21,7 +21,7 @@ builder.Services.AddExecutors(options =>
 builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
 var app = builder.Build();
-app.UseMiddleware<RoleToStateMiddleware>();
+// app.UseMiddleware<RoleToStateMiddleware>();
 app.UseMiddleware<AnswerCallbackMiddleware>();
 app.UseExecutors();
 

@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\TalentForge.Application\TalentForge.Application.csproj" />
       <ProjectReference Include="..\TalentForge.Domain\TalentForge.Domain.csproj" />
     </ItemGroup>
 

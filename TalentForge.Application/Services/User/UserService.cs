@@ -9,7 +9,7 @@ public class UserService : IUserService
         throw new NotImplementedException();
     }
 
-    public Task<UserProfile> GetUserProfile(int id)
+    public Task<UserProfile> GetUserProfile(long telegramUserId)
     {
         throw new NotImplementedException();
     }
