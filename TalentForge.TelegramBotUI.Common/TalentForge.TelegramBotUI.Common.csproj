@@ -7,12 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Telegramper" Version="2.2.3" />
+      <ProjectReference Include="..\TalentForge.Application\TalentForge.Application.csproj" />
+      <ProjectReference Include="..\TalentForge.Domain\TalentForge.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TalentForge.Application\TalentForge.Application.csproj" />
-      <ProjectReference Include="..\TalentForge.Domain\TalentForge.Domain.csproj" />
+      <PackageReference Include="Telegramper" Version="2.2.3" />
     </ItemGroup>
 
 </Project>

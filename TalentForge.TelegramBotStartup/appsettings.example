@@ -1,0 +1,6 @@
+{
+  "ApiKey": "...",
+  "ConnectionStrings": {
+    "LocalConnection": "..."
+  }
+}

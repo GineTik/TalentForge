@@ -1,4 +1,4 @@
-﻿namespace TalentForge.Infrastructure.Data.Entities;
+﻿namespace TalentForge.Domain.Entities;
 
 public class RequestToProject
 {

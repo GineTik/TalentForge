@@ -15,12 +15,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Telegramper" Version="2.2.3" />
+      <ProjectReference Include="..\TalentForge.Application\TalentForge.Application.csproj" />
+      <ProjectReference Include="..\TalentForge.Infrastructure\TalentForge.Infrastructure.csproj" />
+      <ProjectReference Include="..\TalentForge.TelegramBotUI.Common\TalentForge.TelegramBotUI.Common.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TalentForge.Application\TalentForge.Application.csproj" />
-      <ProjectReference Include="..\TalentForge.TelegramBotUI.Common\TalentForge.TelegramBotUI.Common.csproj" />
+      <PackageReference Include="Telegramper" Version="2.2.3" />
     </ItemGroup>
 
 </Project>
