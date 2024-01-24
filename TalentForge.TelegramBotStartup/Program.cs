@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using Microsoft.Extensions.Logging;
+using TalentForge.Application;
 using TalentForge.Infrastructure;
 using TalentForge.TelegramBotStartup.Middlewares;
 using Telegramper.Core;
@@ -18,11 +19,12 @@ builder.Services.AddExecutors(options =>
     options.ParametersParser.ErrorMessages.TypeParseError = "❌ Невірні параметри";
     options.ParametersParser.ErrorMessages.ArgsLengthIsLess = "❌ Недостатньо параметрів";
 });
+builder.Services.AddApplication();
 builder.Services.AddInfrastructure();
 builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
 var app = builder.Build();
-// app.UseMiddleware<RoleToStateMiddleware>();
+app.UseMiddleware<RoleToStateMiddleware>();
 app.UseMiddleware<AnswerCallbackMiddleware>();
 app.UseExecutors();
 

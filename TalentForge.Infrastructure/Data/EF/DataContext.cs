@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TalentForge.Application.Interfaces;
 using TalentForge.Domain.Entities;
 
 namespace TalentForge.Infrastructure.Data.EF;
 
-public class DataContext : DbContext
+public class DataContext : DbContext, IDataContext
 {
     public DbSet<User> Users { get; set; }
     public DbSet<Role> Roles { get; set; }

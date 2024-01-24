@@ -15,10 +15,11 @@ public class BaseExecutor : Executor
    private readonly InlineKeyboardBuilder _keyboardBuilder;
    private readonly IUserService _userService;
 
-   public BaseExecutor(ISequenceService sequenceService, InlineKeyboardBuilder keyboardBuilder)
+   public BaseExecutor(ISequenceService sequenceService, InlineKeyboardBuilder keyboardBuilder, IUserService userService)
    {
       _sequenceService = sequenceService;
       _keyboardBuilder = keyboardBuilder;
+      _userService = userService;
    }
 
    [TargetCommand]

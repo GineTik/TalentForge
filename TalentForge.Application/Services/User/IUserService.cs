@@ -6,5 +6,5 @@ public interface IUserService
 {
     Task<int> RegisterUser(RegistrationUser user);
     Task<UserProfile> GetUserProfile(long telegramUserId);
-    Task<Role> GetRoleByTelegramUserId(long telegramUserId);
+    Task<RoleDTO?> GetRoleByTelegramUserId(long telegramUserId);
 }

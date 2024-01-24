@@ -45,7 +45,7 @@ namespace TalentForge.Infrastructure.Data.EF.Migrations
                     b.ToTable("RequestToProjects");
                 });
 
-            modelBuilder.Entity("TalentForge.Domain.Entities.Role", b =>
+            modelBuilder.Entity("TalentForge.Domain.Entities.RoleDTO", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -155,14 +155,14 @@ namespace TalentForge.Infrastructure.Data.EF.Migrations
 
             modelBuilder.Entity("TalentForge.Domain.Entities.User", b =>
                 {
-                    b.HasOne("TalentForge.Domain.Entities.Role", null)
+                    b.HasOne("TalentForge.Domain.Entities.RoleDTO", null)
                         .WithMany("Users")
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("TalentForge.Domain.Entities.Role", b =>
+            modelBuilder.Entity("TalentForge.Domain.Entities.RoleDTO", b =>
                 {
                     b.Navigation("Users");
                 });
